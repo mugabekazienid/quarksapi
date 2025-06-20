@@ -6,7 +6,7 @@ Endpoints
 
 ### `POST /users`
 
-Create a new user.
+### Create a new user.
 
 Request Body (JSON):
 {
@@ -21,7 +21,7 @@ Response:
   "email": "alice@example.com"
 }
 GET /users/{id}
-Retrieve a user by ID.
+### Retrieve a user by ID.
 
 Response:
 {
@@ -35,14 +35,14 @@ If not found:
   "error": "User not found"
 }
 
-Technology Used
+### Technology Used
 Java 17
 
 Spring Boot 3.5.2
 
 Maven
 
-How to Run
+### How to Run
 Make sure Java 17 and Maven are installed.
 
 Clone the repository.
